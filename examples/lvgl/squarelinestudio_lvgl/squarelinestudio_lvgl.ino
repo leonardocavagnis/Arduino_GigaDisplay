@@ -19,14 +19,14 @@
  * Initial author: Leonardo Cavagnis @leonardocavagnis
  */
 
-#include "Arduino_H7_Video.h"
+#include "Arduino_Video.h"
 #include "Arduino_GigaDisplayTouch.h"
 
 #include "lvgl.h"
 #include "ui.h"
 
 /* Initialize the GIGA Display Shield with a resolution of 800x480 pixels */
-Arduino_H7_Video Display(800, 480, GigaDisplayShield);
+Arduino_Video Display(800, 480, GigaDisplayShield);
 Arduino_GigaDisplayTouch Touch;
 
 void setup() {

@@ -1,8 +1,8 @@
-#include "Arduino_H7_Video.h"
+#include "Arduino_Video.h"
 #include "lvgl.h"
 #include "Arduino_GigaDisplayTouch.h"
 
-Arduino_H7_Video          Display(800, 480, GigaDisplayShield);
+Arduino_Video          Display(800, 480, GigaDisplayShield);
 Arduino_GigaDisplayTouch  TouchDetector;
 
 static void btn_event_cb(lv_event_t * e) {

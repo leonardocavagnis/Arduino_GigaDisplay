@@ -1,9 +1,9 @@
-#include "Arduino_H7_Video.h"
+#include "Arduino_Video.h"
 #include "Arduino_GigaDisplayTouch.h"
 
 #include "lvgl.h"
 
-Arduino_H7_Video          Display(800, 480, GigaDisplayShield); /* Arduino_H7_Video Display(1024, 768, USBCVideo); */
+Arduino_Video          Display(800, 480, GigaDisplayShield); /* Arduino_Video Display(1024, 768, USBCVideo); */
 Arduino_GigaDisplayTouch  TouchDetector;
 
 static void set_slider_val(void * bar, int32_t val) {

@@ -3,10 +3,10 @@
 * Online image converter for LVGL v8 or earlier: https://lvgl.io/tools/imageconverter
 */
 
-#include "Arduino_H7_Video.h"
+#include "Arduino_Video.h"
 #include "lvgl.h"
 
-Arduino_H7_Video          Display(800, 480, GigaDisplayShield);
+Arduino_Video          Display(800, 480, GigaDisplayShield);
 
 void setup() {
   Display.begin();
