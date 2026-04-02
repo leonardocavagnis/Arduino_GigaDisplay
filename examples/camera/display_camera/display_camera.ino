@@ -1,6 +1,6 @@
 
 #include "arducam_dvp.h"
-#include "Arduino_H7_Video.h"
+#include "Arduino_Video.h"
 #include "dsi.h"
 #include "SDRAM.h"
 
@@ -37,7 +37,7 @@ FrameBuffer fb;
 // The buffer used to rotate and resize the frame
 FrameBuffer outfb;
 // The buffer used to rotate and resize the frame
-Arduino_H7_Video Display(800, 480, GigaDisplayShield);
+Arduino_Video Display(800, 480, GigaDisplayShield);
 
 void blinkLED(uint32_t count = 0xFFFFFFFF)
 {
